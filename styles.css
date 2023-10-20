@@ -1,15 +1,14 @@
-
-/* Your CSS Code here. */
+/* Apply styles to the holder */
 .holder {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+    display: flex; /* Enable flexbox layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    background-color: lightgray; /* Optional background color for the holder */
 }
 
+/* Apply styles to item-1 */
 .item-1 {
     width: 100px;
     height: 100px;
